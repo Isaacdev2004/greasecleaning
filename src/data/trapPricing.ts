@@ -27,10 +27,10 @@ export const trapTypes: TrapData[] = [
     id: "ag1d",
     tab: "AG1/D Type",
     name: "AG1/D Type Grease Trap",
-    size: "35–40 Gallons",
+    size: "15 Gallons",
     minimumRequirement: "2-4 visits per month as per Municipality requirements",
     monthlyBasic: {
-      price: 175,
+      price: 125,
       tagline: "Essential Service - Budget-Friendly Option",
       includes: [
         "Regular grease trap cleaning (2-4 times/month)",
@@ -40,7 +40,6 @@ export const trapTypes: TrapData[] = [
         "Digital service reports",
         "Scheduled maintenance reminders",
         "Municipality-ready service records",
-        "Trap condition monitoring",
       ],
       terms: [
         "We schedule dates & times",
@@ -49,10 +48,10 @@ export const trapTypes: TrapData[] = [
         "Technical assistance: 250 AED per visit",
         "Drain blockage removal: Additional charges apply",
       ],
-      perfectFor: "Medium restaurants, commercial kitchens, busy cafes",
+      perfectFor: "Budget-conscious cafes, small bakeries, businesses with flexible schedules",
     },
     monthlyVip: {
-      price: 200,
+      price: 150,
       tagline: "Premium Service - Complete Peace of Mind",
       includes: [
         "Everything in Basic PLUS",
@@ -67,12 +66,12 @@ export const trapTypes: TrapData[] = [
         "Faster response times",
       ],
       terms: [],
-      perfectFor: "Busy restaurants and high-usage kitchens",
+      perfectFor: "Busy restaurants, hotels, food outlets needing flexibility",
     },
     annualBasic: {
-      price: 150,
+      price: 110,
       tagline: "Lock in Savings - Essential Annual Service",
-      savings: "Save 14% vs Monthly Basic",
+      savings: "Save 12% vs Monthly Basic",
       includes: [
         "Regular grease trap cleaning (2-4 times/month)",
         "Full Municipality compliance",
@@ -82,7 +81,6 @@ export const trapTypes: TrapData[] = [
         "Price locked for 12 months",
         "Annual savings guarantee",
         "Municipality-ready records",
-        "Trap performance monitoring",
       ],
       terms: [
         "We schedule dates & times",
@@ -92,10 +90,10 @@ export const trapTypes: TrapData[] = [
         "Drain blockage removal: Additional charges apply",
         "12-month commitment",
       ],
-      perfectFor: "Businesses wanting predictable yearly costs",
+      perfectFor: "Businesses wanting to lock in rates, annual budget planning",
     },
     annualVip: {
-      price: 175,
+      price: 130,
       tagline: "Ultimate Value - Premium Annual Service",
       savings: "Save 13% vs Monthly VIP",
       includes: [
@@ -112,19 +110,19 @@ export const trapTypes: TrapData[] = [
         "Maximum savings guaranteed",
       ],
       terms: [],
-      perfectFor: "Restaurants needing flexibility and priority service",
+      perfectFor: "Premium restaurants, chains, businesses needing both savings and flexibility",
     },
     monthlyExampleRows: [
-      { label: "2 Visits", values: [350, 400, 300, 350] },
-      { label: "3 Visits", values: [525, 600, 450, 525] },
-      { label: "4 Visits", values: [700, 800, 600, 700] },
+      { label: "2 Visits", values: [250, 300, 220, 260] },
+      { label: "3 Visits", values: [375, 450, 330, 390] },
+      { label: "4 Visits", values: [500, 600, 440, 520] },
     ],
     annualExampleRows: [
-      { label: "2 Visits/Month", values: [4200, 4800, 3600, 4200] },
-      { label: "3 Visits/Month", values: [6300, 7200, 5400, 6300] },
-      { label: "4 Visits/Month", values: [8400, 9600, 7200, 8400] },
+      { label: "2 Visits/Month", values: [3360, 4200, 3000, 3600] },
+      { label: "3 Visits/Month", values: [5040, 6300, 4500, 5400] },
+      { label: "4 Visits/Month", values: [6720, 8400, 6000, 7200] },
     ],
-    vipSavings: "VIP clients can save up to 1,800 AED/year on emergency visits and blockage removal services.",
+    vipSavings: "VIP ANNUAL SAVINGS: Up to 960 AED/year vs Monthly VIP!",
   },
   {
     id: "ag2",
